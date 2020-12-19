@@ -1,6 +1,6 @@
 body{
     font-family: sans-serif;
-    background-color: #ccc;
+    background-color: rgb(170, 164, 164);
     margin: 0;
 }
 
@@ -9,11 +9,12 @@ body{
     height: 500px;
     background-position: right center;
     background-size: cover;
+    background-repeat: no-repeat;
 }
 .hero-content{
     text-align: center;
     color: snow;
-    margin-top: 150px;
+    margin-top: 180px;
     
 }
 
@@ -21,24 +22,33 @@ body{
     text-transform: uppercase;
     font-size: 46px;
     text-shadow: 3px 3px 5px gray;
+    
 }
 main{
     width: 80%;
     margin: auto;
 }
 .sec-content{
-        background-color: white;
-        padding: 15px;
+        background-color: rgb(255, 255, 255);
         margin-top: 15px;
+        height: 224px;
+        width: 950px;
+        margin-left: 00px;
+        margin-right: 200px;
+        padding: 10px 10px 10px 10px;
+
+       
     
 }
 
 .p-h1 {
-    border-bottom-style:groove;
+    
     margin: auto;
     width: 250px;
-    background: #2d2c29;
-    
+    background: #726f65;
+    font-family: sans-serif;
+    font-size: 13px;
+    margin-top: 53px;    
     
 }
 
@@ -55,8 +65,74 @@ footer{
     background-color: #eeeeee;
     margin-top: 0px;
     box-shadow 7px 0px 5px;
-    height:40px
+    height:40px;
+    padding: 0%;
+    text-shadow: 2px 2px 5px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-style:italic;
+}
+
+.card-1 {
+    float:left;
+    box-shadow: 2px 3px 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: 1px;
+    margin-right: 5px;
     
     
-    
+}
+.card-2{
+    float:right;
+    box-shadow: 2px 2px 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: 1px;
+    margin-right: 5px;
+}
+.card-3{
+    float:right;
+    box-shadow: 2px 2px 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: 1px;
+    margin-right: 5px;
+}
+
+.hero nav li{
+    display:inline-block;
+    list-style: none;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-family: sans-serif;
+    border: 1px solid white;
+
+}
+.hero nav a{
+    background-color: rgba(126, 116, 116,0.5);
+    font-family: sans-serif;
+    display: block;
+    padding: 6px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.tree-content {
+    margin-top: 5px;
+    margin-right: 40px;
+    background-color: white;
+    border-left: 1px;
+    width: 320px;
+    margin-bottom: 0;
+}
+.coy {
+    background-color: red;
+}
+.hero nav ul{
+    text-align: right;
+    margin-top: 1px;
+    padding-top: 5px;
+    padding-right: 5px;
 }
